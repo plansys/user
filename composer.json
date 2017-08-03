@@ -1,0 +1,19 @@
+{
+    "name": "plansys/user",
+    "authors": [
+        {
+            "name": "Rizky",
+            "email": "rizky05@gmail.com"
+        }
+    ],
+    "require": {
+        "plansys/yard": "^0.0.5",
+        "plansys/db": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plansys\\User\\": "src/",
+            "user\\Pages\\": "pages/"
+        }
+    }
+}
