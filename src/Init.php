@@ -8,7 +8,7 @@ class Init
     {
         return [
             'dir' => realpath(dirname(__FILE__) . '/..') . '/pages',
-            'url' => '/' . trim($host, '/') . '/pages/'
+            'url' => $host . '/vendor/plansys/user/pages/'
         ];
     }
 }
